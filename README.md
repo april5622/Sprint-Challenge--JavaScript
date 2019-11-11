@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    map is creating a new array with the results of calling a provided function on every element in the calling array and forEach executes a provided funcion for each array element.
+
 2. What is the difference between a function and a method?
+
+    A method is a piece of code that is called by a name that is associated with an object. A function is a piece of code that is called by name. 
 
 3. What is closure?
 
+    A closure is the combination of a function bundled together with references to its surrounding state. 
+
 4. Describe the four rules of the 'this' keyword.
 
+    The four rules of 'this' is whenever a function is contained in the global scope, the value of 'this' inside of that function will be the 'window object'. Second is whenever a function is called by a preceding dot, the object before that dot is 'this'. Third, whenecer a constructor function is used, 'this' is refers to the specific instance of the object is created and returned by the constructor function. Fourth, whenever Javascript's 'call' or 'apply' method is used, 'this' is explicitly defined. 
+
 5. Why do we need super() in an extended class?
+
+    super() is used to tell a parent's constructor to be concerned with the child's attributes vis versa.
 
 ## Project Set up
 
